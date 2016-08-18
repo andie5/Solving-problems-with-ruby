@@ -4,12 +4,14 @@
 # Find the sum of all the multiples of 3 or 5 below 1000.
 def sum_multiples_three_five
   sum = 0
-  1000.times do |n| 
+  n = 0
+  while n < 1000
     if(((n%3) == 0) || ((n%5) == 0))
       sum += n
     end
+    n+=1
   end
-  print "#{n}"
+  puts "#{sum}"
 end
 
 # Test the function
