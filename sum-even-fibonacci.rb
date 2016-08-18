@@ -6,15 +6,15 @@
 
 def sum_even_fibonacci
   prev = 1
-  current = 1
+  current = 2
   sum = 0
   sum_even = 0
   while sum < 4000000 
     sum = prev + current
     prev = current
     current = sum
-    if((sum%2) === 0)
-      sum_even +=  current
+    if((current%2) === 0)
+      sum_even += current
     end
   end
   puts "#{sum_even}"
