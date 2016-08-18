@@ -23,13 +23,6 @@ def largest_prime_factor(n)
   puts "#{i}"
   #   j = 2
   #   # Inner loop to check if number is a divisible by any other number
-  #   while j <= i
-  #     if((i%j) === 0)
-  #       not_prime = true;
-  #       break;
-  #   # Check the next number is prime
-  #   i-=1
-  # end
 end
 
 
