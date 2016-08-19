@@ -21,7 +21,6 @@ def largest_prime_factor(n)
   end
 
   puts "#{i}"
-  #   j = 2
   #   # Inner loop to check if number is a divisible by any other number
 end
 
