@@ -24,7 +24,7 @@ def largest_palindrome_product
         max_prod = product
       end
     end
-  end
+  ends
   return puts "#{max_prod}"
 end
 
