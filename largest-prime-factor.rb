@@ -33,4 +33,4 @@ def largest_prime_factor(n)
 end
 
 largest_prime_factor(21)
-largest_prime_factor(600851475143)
+largest_prime_factor(100000)
